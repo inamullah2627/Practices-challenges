@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Basic language of the Web: HTML</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <!-- // Magazine -->
-    <header>
+     <!-- Magazine -->
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <nav>
         <a href="./blog.html">Blog</a>
@@ -28,7 +29,7 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
         <img
           src="./images/post-img.jpg"
@@ -65,7 +66,7 @@
       </p>
       <p>In HTML, each element is made up of 3 parts:</p>
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -87,7 +88,7 @@
       </p>
 
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Worpress or Wix
@@ -102,7 +103,7 @@
 
     <aside>
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./images/related-1.jpg"
@@ -110,7 +111,7 @@
             height="75"
             alt="Person programming"
           /><a href="#">How to Learn Web Development</a>
-          <p>By Inam Ullah Assar</p>
+          <p class="related-author">By Inam Ullah Assar</p>
         </li>
         <li>
           <img
@@ -119,7 +120,7 @@
             height="75"
             alt="lighting"
           /><a href="#">The Unknown Power of CSS</a>
-          <p>By Malok inam</p>
+          <p class="related-author">By Malok inam</p>
         </li>
         <li>
           <img
@@ -128,11 +129,11 @@
             height="75"
             alt="JavaScript code on Screen"
           /><a href="#">Why JavaScript is Awesome</a>
-          <p>By Malok</p>
+          <p class="related-author">By Malok</p>
         </li>
       </ul>
     </aside>
 
-    <footer>copyright &copy; 2024 by the code Magazine.</footer>
+    <footer><p id="copyright">copyright &copy; 2024 by the code Magazine.</p></footer>
   </body>
 </html>
