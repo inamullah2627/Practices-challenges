@@ -1,6 +1,7 @@
-h1, h2, h3, h4, p, li{
+body{
     font-family: 'Times New Roman', Times, serif;
     color: #444;
+    border-top: 10px solid #1098ad;
 }
 
 h1, h2, h3{
@@ -116,3 +117,10 @@ a:active{
     font-style: italic;
 }
 /* LVHA */
+
+/* Resolving Conflicts */
+/* !imprtant
+    Id is highest priority 
+    then Class
+    and last one is universal selector
+    */
