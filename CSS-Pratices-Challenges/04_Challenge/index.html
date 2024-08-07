@@ -20,21 +20,22 @@
 
         <!-- <div class="clear"></div> -->
       </header>
-
-      <article>
-        <header class="post-header">
-          <h2>The Basic Language of the Web: HTML</h2>
-
-          <img
-            src="./images/laura-jones.jpg"
-            alt="Laura jones"
-            width="50"
-            height="50"
-            class="author-img"        
-          />
-
-          <p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-
+      
+      <div class="row">
+        <article>
+          <header class="post-header">
+            <h2>The Basic Language of the Web: HTML</h2>
+            <div class="author-box">
+              <img
+              src="./images/laura-jones.jpg"
+              alt="Laura jones"
+              width="50"
+              height="50"
+              class="author-img"        
+              />
+              
+            <p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+          </div>
           <img
             src="./images/post-img.jpg"
             alt="HTML code on a screen"
@@ -51,14 +52,14 @@
           technologies: HTML, CSS and JavaScript. These are the languages of the
           web.
         </p>
-
+        
         <p>
           In this post, let's focus on HTML. We will learn what HTML is all about,
           and why you too should learn it.
         </p>
-
+        
         <h3>What is HTML?</h3>
-
+        
         <p>
           HTML stands for <strong>H</strong>yper<strong>T</strong>ext
           <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
@@ -76,13 +77,13 @@
           <li>The closing tag</li>
           <li>The actual element</li>
         </ol>
-
+        
         <p>
           You can learn more at the
           <a
-            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            target="_blank"
-            >MDN Web Docs</a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >MDN Web Docs</a
           >.
         </p>
 
@@ -92,7 +93,7 @@
           There are countless reasons for learning the fundamental language of the
           web. Here are 5 of them:
         </p>
-
+        
         <ul>
           <li class="first-li">To be able to use the fundamental web dev language</li>
           <li>
@@ -103,42 +104,52 @@
           <li>To impress friends</li>
           <li>To have fun 😃</li>
         </ul>
-
+        
         <p>Hopefully you learned something new here. See you next time!</p>
       </article>
-
+      
       <aside>
         <h4>Related Posts</h4>
         <ul class="related">
-          <li>
+          <li class="related-post">
             <img
               src="./images/related-1.jpg"
               width="75"
               height="75"
               alt="Person programming"
-            /><a href="#">How to Learn Web Development</a>
-            <p class="related-author">By Inam Ullah Assar</p>
-          </li>
-          <li>
-            <img
+              />
+              <div>
+                <a href="#" class="related-link">How to Learn Web Development</a>
+                <p class="related-author">By Inam Ullah Assar</p>
+              </div>
+            </li>
+            <li class="related-post">
+              <img
               src="./images/related-2.jpg"
               width="75"
               height="75"
               alt="lighting"
-            /><a href="#">The Unknown Power of CSS</a>
-            <p class="related-author">By Malok inam</p>
-          </li>
-          <li>
-            <img
+              />
+              <div>
+                <a href="#" class="related-link">The Unknown Power of CSS</a>
+                <p class="related-author">By Malok inam</p>
+              </div>
+            </li>
+            <li class="related-post">
+              <img
               src="./images/related-3.jpg"
               width="75"
               height="75"
               alt="JavaScript code on Screen"
-            /><a href="#">Why JavaScript is Awesome</a>
-            <p class="related-author">By Malok</p>
-          </li>
-        </ul>
-      </aside>
+              />
+              <div>
+                <a href="#" class="related-link">Why JavaScript is Awesome</a>
+                <p class="related-author">By Malok</p>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
 
       <footer><p id="copyright">copyright &copy; 2024 by the code Magazine.</p></footer>
     </div>
